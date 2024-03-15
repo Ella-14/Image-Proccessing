@@ -1,0 +1,27 @@
+body {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+  background-color: rgb(243, 159, 251);
+}
+
+canvas,
+img {
+  width: 15vw;
+  border: 1px solid black;
+  box-shadow: 10px 9px 3px rgba(17, 17, 17, 0.349);
+  margin: 5vw;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+.mirror {
+  transform: scaleX(-1);
+}
+
